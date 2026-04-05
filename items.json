@@ -1,0 +1,249 @@
+[
+{
+    "model": "myapp.item",
+    "pk": 21,
+    "fields": {
+        "user_name": 1,
+        "item_name": "Ice Cream Sundae",
+        "item_desc": "Vanilla ice cream topped with chocolate sauce",
+        "item_price": "4.59",
+        "item_image": "https://www.svgrepo.com/show/66980/fast-food-placeholder.svg",
+        "is_available": true,
+        "created_at": "2026-03-27T15:49:44.206Z"
+    }
+},
+{
+    "model": "myapp.item",
+    "pk": 22,
+    "fields": {
+        "user_name": 1,
+        "item_name": "Cheeseburger",
+        "item_desc": "Beef patty with cheese, lettuce and tomato",
+        "item_price": "6.49",
+        "item_image": "https://www.svgrepo.com/show/66980/fast-food-placeholder.svg",
+        "is_available": true,
+        "created_at": "2026-03-27T15:55:22.990Z"
+    }
+},
+{
+    "model": "myapp.item",
+    "pk": 23,
+    "fields": {
+        "user_name": 1,
+        "item_name": "Caesar Salad",
+        "item_desc": "Crisp romaine with parmesan and croutons",
+        "item_price": "5.99",
+        "item_image": "https://www.svgrepo.com/show/66980/fast-food-placeholder.svg",
+        "is_available": true,
+        "created_at": "2026-03-27T15:55:22.998Z"
+    }
+},
+{
+    "model": "myapp.item",
+    "pk": 24,
+    "fields": {
+        "user_name": 1,
+        "item_name": "Chicken Tacos",
+        "item_desc": "Soft tortillas with grilled chicken and salsa",
+        "item_price": "7.29",
+        "item_image": "https://www.svgrepo.com/show/66980/fast-food-placeholder.svg",
+        "is_available": true,
+        "created_at": "2026-03-27T15:55:23.001Z"
+    }
+},
+{
+    "model": "myapp.item",
+    "pk": 25,
+    "fields": {
+        "user_name": 1,
+        "item_name": "Sushi Platter",
+        "item_desc": "Assorted rolls with tuna, salmon and avocado",
+        "item_price": "12.99",
+        "item_image": "https://www.svgrepo.com/show/66980/fast-food-placeholder.svg",
+        "is_available": true,
+        "created_at": "2026-03-27T15:55:23.004Z"
+    }
+},
+{
+    "model": "myapp.item",
+    "pk": 26,
+    "fields": {
+        "user_name": 1,
+        "item_name": "Pasta Alfredo",
+        "item_desc": "Creamy white sauce pasta with mushrooms",
+        "item_price": "9.49",
+        "item_image": "https://www.svgrepo.com/show/66980/fast-food-placeholder.svg",
+        "is_available": true,
+        "created_at": "2026-03-27T15:55:23.006Z"
+    }
+},
+{
+    "model": "myapp.item",
+    "pk": 27,
+    "fields": {
+        "user_name": 1,
+        "item_name": "Falafel Wrap",
+        "item_desc": "Middle Eastern wrap with chickpea patties",
+        "item_price": "6.99",
+        "item_image": "https://www.svgrepo.com/show/66980/fast-food-placeholder.svg",
+        "is_available": true,
+        "created_at": "2026-03-27T15:55:23.009Z"
+    }
+},
+{
+    "model": "myapp.item",
+    "pk": 28,
+    "fields": {
+        "user_name": 1,
+        "item_name": "Pad Thai",
+        "item_desc": "Thai stir-fried noodles with peanuts and veggies",
+        "item_price": "10.49",
+        "item_image": "https://www.svgrepo.com/show/66980/fast-food-placeholder.svg",
+        "is_available": true,
+        "created_at": "2026-03-27T15:55:23.012Z"
+    }
+},
+{
+    "model": "myapp.item",
+    "pk": 29,
+    "fields": {
+        "user_name": 1,
+        "item_name": "French Fries",
+        "item_desc": "Crispy golden potato fries with salt",
+        "item_price": "3.49",
+        "item_image": "https://www.svgrepo.com/show/66980/fast-food-placeholder.svg",
+        "is_available": true,
+        "created_at": "2026-03-27T15:55:23.015Z"
+    }
+},
+{
+    "model": "myapp.item",
+    "pk": 30,
+    "fields": {
+        "user_name": 1,
+        "item_name": "Veggie Burger",
+        "item_desc": "Plant-based patty with lettuce and tomato",
+        "item_price": "6.29",
+        "item_image": "https://www.svgrepo.com/show/66980/fast-food-placeholder.svg",
+        "is_available": true,
+        "created_at": "2026-03-27T15:55:23.018Z"
+    }
+},
+{
+    "model": "myapp.item",
+    "pk": 31,
+    "fields": {
+        "user_name": 1,
+        "item_name": "Butter Chicken",
+        "item_desc": "Indian-style chicken in creamy tomato sauce",
+        "item_price": "11.49",
+        "item_image": "https://www.svgrepo.com/show/66980/fast-food-placeholder.svg",
+        "is_available": true,
+        "created_at": "2026-03-27T15:55:23.021Z"
+    }
+},
+{
+    "model": "myapp.item",
+    "pk": 32,
+    "fields": {
+        "user_name": 1,
+        "item_name": "Ramen Bowl",
+        "item_desc": "Japanese noodle soup with egg and pork",
+        "item_price": "10.99",
+        "item_image": "https://www.svgrepo.com/show/66980/fast-food-placeholder.svg",
+        "is_available": true,
+        "created_at": "2026-03-27T15:55:23.024Z"
+    }
+},
+{
+    "model": "myapp.item",
+    "pk": 33,
+    "fields": {
+        "user_name": 1,
+        "item_name": "Greek Salad",
+        "item_desc": "Feta cheese, olives, cucumber and tomatoes",
+        "item_price": "7.99",
+        "item_image": "https://www.svgrepo.com/show/66980/fast-food-placeholder.svg",
+        "is_available": true,
+        "created_at": "2026-03-27T15:55:23.026Z"
+    }
+},
+{
+    "model": "myapp.item",
+    "pk": 34,
+    "fields": {
+        "user_name": 1,
+        "item_name": "BBQ Ribs",
+        "item_desc": "Slow cooked pork ribs with barbecue sauce",
+        "item_price": "14.99",
+        "item_image": "https://www.svgrepo.com/show/66980/fast-food-placeholder.svg",
+        "is_available": true,
+        "created_at": "2026-03-27T15:55:23.029Z"
+    }
+},
+{
+    "model": "myapp.item",
+    "pk": 35,
+    "fields": {
+        "user_name": 1,
+        "item_name": "Shawarma",
+        "item_desc": "Grilled meat wrap with garlic sauce",
+        "item_price": "8.49",
+        "item_image": "https://www.svgrepo.com/show/66980/fast-food-placeholder.svg",
+        "is_available": true,
+        "created_at": "2026-03-27T15:55:23.031Z"
+    }
+},
+{
+    "model": "myapp.item",
+    "pk": 36,
+    "fields": {
+        "user_name": 1,
+        "item_name": "Pancakes",
+        "item_desc": "Stack of fluffy pancakes with maple syrup",
+        "item_price": "5.79",
+        "item_image": "https://www.svgrepo.com/show/66980/fast-food-placeholder.svg",
+        "is_available": true,
+        "created_at": "2026-03-27T15:55:23.035Z"
+    }
+},
+{
+    "model": "myapp.item",
+    "pk": 37,
+    "fields": {
+        "user_name": 1,
+        "item_name": "Mutton Biryani",
+        "item_desc": "Fragrant rice with spiced mutton",
+        "item_price": "12.29",
+        "item_image": "https://www.svgrepo.com/show/66980/fast-food-placeholder.svg",
+        "is_available": true,
+        "created_at": "2026-03-27T15:55:23.037Z"
+    }
+},
+{
+    "model": "myapp.item",
+    "pk": 38,
+    "fields": {
+        "user_name": 1,
+        "item_name": "Spring Rolls",
+        "item_desc": "Crispy rolls stuffed with vegetables",
+        "item_price": "4.99",
+        "item_image": "https://www.svgrepo.com/show/66980/fast-food-placeholder.svg",
+        "is_available": true,
+        "created_at": "2026-03-27T15:55:23.040Z"
+    }
+},
+{
+    "model": "myapp.item",
+    "pk": 39,
+    "fields": {
+        "user_name": 1,
+        "item_name": "Fish and Chips",
+        "item_desc": "British-style fried fish with fries",
+        "item_price": "9.99",
+        "item_image": "https://www.svgrepo.com/show/66980/fast-food-placeholder.svg",
+        "is_available": true,
+        "created_at": "2026-03-27T15:55:23.044Z"
+    }
+}
+]
