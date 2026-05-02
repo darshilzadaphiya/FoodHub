@@ -1,0 +1,1336 @@
+Watching for file changes with StatReloader
+D:\Study\Django Projects\Project1\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Study\Django Projects\Project1\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Study\Django Projects\Project1\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Fetching all items from the database
+Found 18 items in the database
+D:\Study\Django Projects\Project1\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Study\Django Projects\Project1\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Study\Django Projects\Project1\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Study\Django Projects\Project1\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Fetching item with id 32
+Found Ramen Bowl ($10.99)
+D:\Study\Django Projects\Project1\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Study\Django Projects\Project1\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Study\Django Projects\Project1\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Study\Django Projects\Project1\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Fetching item with id 32
+Found Ramen Bowl ($10.99)
+Fetching item with id 100
+Not Found: /myapp/100/
+D:\Study\Django Projects\Project1\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Fetching item with id 100
+Error fetching the item 100:  No Item matches the given query.
+Not Found: /myapp/100/
+D:\Study\Django Projects\Project1\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Study\Django Projects\Project1\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Study\Django Projects\Project1\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Fetching all items from the database
+User Darshil requested item list from 127.0.0.1
+Found 18 items in the database
+D:\Study\Django Projects\Project1\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Study\Django Projects\Project1\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Study\Django Projects\Project1\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Fetching all items from the database
+User [2026-04-10T11:37:07.036682+00:00] Darshil requested item list from 127.0.0.1
+Found 18 items in the database
+D:\Study\Django Projects\Project1\mysite\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Fetching all items from the database
+User [2026-04-10T11:44:36.863046+00:00] Darshil requested item list from 127.0.0.1
+Found 18 items in the database
+Fetching all items from the database
+User [2026-04-10T11:46:57.165845+00:00] Darshil requested item list from 127.0.0.1
+Found 18 items in the database
+Fetching all items from the database
+User [2026-04-10T11:48:01.658740+00:00] Darshil requested item list from 127.0.0.1
+Found 18 items in the database
+Fetching all items from the database
+User [2026-04-10T12:04:05.417985+00:00] Darshil requested item list from 127.0.0.1
+Found 18 items in the database
+Fetching all items from the database
+User [2026-04-10T12:05:02.964106+00:00] Darshil requested item list from 127.0.0.1
+Found 18 items in the database
+Fetching all items from the database
+User [2026-04-12T13:25:52.582647+00:00] Darshil requested item list from 127.0.0.1
+Found 18 items in the database
+Internal Server Error: /myapp/
+Traceback (most recent call last):
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Study\Django Projects\Project1\mysite\myapp\views.py", line 34, in index
+    return render(request, "myapp/index.html", context)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\engine.py", line 186, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 157, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 199, in compile_nodelist
+    nodelist = parser.parse()
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\loader_tags.py", line 307, in do_extends
+    nodelist = parser.parse()
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\loader_tags.py", line 235, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\defaulttags.py", line 894, in do_for
+    nodelist_loop = parser.parse(
+        (
+    ...<2 lines>...
+        )
+    )
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 556, in parse
+    raise self.error(token, e)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 554, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 676, in compile_filter
+    return FilterExpression(token, self)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 771, in __init__
+    filter_func = parser.find_filter(filter_name)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 682, in find_filter
+    raise TemplateSyntaxError("Invalid filter: '%s'" % filter_name)
+django.template.exceptions.TemplateSyntaxError: Template: D:\Study\Django Projects\Project1\mysite\myapp\templates\myapp\index.html, Invalid filter: 'currency'
+Fetching all items from the database
+User [2026-04-12T13:31:12.436900+00:00] Darshil requested item list from 127.0.0.1
+Found 18 items in the database
+Internal Server Error: /myapp/
+Traceback (most recent call last):
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\defaulttags.py", line 1067, in find_library
+    return parser.libraries[name]
+           ~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'custom_filters'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Study\Django Projects\Project1\mysite\myapp\views.py", line 34, in index
+    return render(request, "myapp/index.html", context)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\engine.py", line 186, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 157, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 199, in compile_nodelist
+    nodelist = parser.parse()
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\loader_tags.py", line 307, in do_extends
+    nodelist = parser.parse()
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\defaulttags.py", line 1129, in load
+    lib = find_library(parser, name)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\defaulttags.py", line 1069, in find_library
+    raise TemplateSyntaxError(
+    ...<5 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Template: D:\Study\Django Projects\Project1\mysite\myapp\templates\myapp\index.html, 'custom_filters' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+auth
+cache
+i18n
+l10n
+log
+static
+tz
+Watching for file changes with StatReloader
+Fetching all items from the database
+User [2026-04-12T13:31:56.769572+00:00] Darshil requested item list from 127.0.0.1
+Found 18 items in the database
+D:\Study\Django Projects\Project1\mysite\myapp\templatetags\custom_filters.py changed, reloading.
+Watching for file changes with StatReloader
+Fetching all items from the database
+User [2026-04-12T13:35:32.018639+00:00] Darshil requested item list from 127.0.0.1
+Found 18 items in the database
+Internal Server Error: /myapp/
+Traceback (most recent call last):
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Study\Django Projects\Project1\mysite\myapp\views.py", line 34, in index
+    return render(request, "myapp/index.html", context)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 174, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 166, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\loader_tags.py", line 160, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 166, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\loader_tags.py", line 66, in render
+    result = block.nodelist.render(context)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\defaulttags.py", line 249, in render
+    nodelist.append(node.render_annotated(context))
+                    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1150, in render
+    output = self.filter_expression.resolve(context)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 815, in resolve
+    new_obj = func(obj, *arg_vals)
+  File "D:\Study\Django Projects\Project1\mysite\myapp\templatetags\custom_filters.py", line 11, in discount
+    return value - ((value*int(percentage)/100))
+                     ~~~~~~~~~~~~~~~~~~~~~^~~~
+TypeError: unsupported operand type(s) for /: 'str' and 'int'
+D:\Study\Django Projects\Project1\mysite\myapp\templatetags\custom_filters.py changed, reloading.
+Watching for file changes with StatReloader
+Fetching all items from the database
+User [2026-04-12T13:35:51.594392+00:00] Darshil requested item list from 127.0.0.1
+Found 18 items in the database
+Internal Server Error: /myapp/
+Traceback (most recent call last):
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Study\Django Projects\Project1\mysite\myapp\views.py", line 34, in index
+    return render(request, "myapp/index.html", context)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 174, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 166, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\loader_tags.py", line 160, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 166, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\loader_tags.py", line 66, in render
+    result = block.nodelist.render(context)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\defaulttags.py", line 249, in render
+    nodelist.append(node.render_annotated(context))
+                    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1150, in render
+    output = self.filter_expression.resolve(context)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 815, in resolve
+    new_obj = func(obj, *arg_vals)
+  File "D:\Study\Django Projects\Project1\mysite\myapp\templatetags\custom_filters.py", line 11, in discount
+    return int(value) - ((value*int(percentage)/100))
+           ~~~^^^^^^^
+ValueError: invalid literal for int() with base 10: '$9.49'
+D:\Study\Django Projects\Project1\mysite\myapp\templatetags\custom_filters.py changed, reloading.
+Watching for file changes with StatReloader
+Fetching all items from the database
+User [2026-04-12T13:36:06.380482+00:00] Darshil requested item list from 127.0.0.1
+Found 18 items in the database
+Internal Server Error: /myapp/
+Traceback (most recent call last):
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Study\Django Projects\Project1\mysite\myapp\views.py", line 34, in index
+    return render(request, "myapp/index.html", context)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 174, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 166, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\loader_tags.py", line 160, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 166, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\loader_tags.py", line 66, in render
+    result = block.nodelist.render(context)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\defaulttags.py", line 249, in render
+    nodelist.append(node.render_annotated(context))
+                    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1150, in render
+    output = self.filter_expression.resolve(context)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 815, in resolve
+    new_obj = func(obj, *arg_vals)
+  File "D:\Study\Django Projects\Project1\mysite\myapp\templatetags\custom_filters.py", line 11, in discount
+    return int(value) - int(((value*int(percentage)/100)))
+           ~~~^^^^^^^
+ValueError: invalid literal for int() with base 10: '$9.49'
+D:\Study\Django Projects\Project1\mysite\myapp\templatetags\custom_filters.py changed, reloading.
+Watching for file changes with StatReloader
+Fetching all items from the database
+User [2026-04-12T13:36:37.328292+00:00] Darshil requested item list from 127.0.0.1
+Found 18 items in the database
+Internal Server Error: /myapp/
+Traceback (most recent call last):
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Study\Django Projects\Project1\mysite\myapp\views.py", line 34, in index
+    return render(request, "myapp/index.html", context)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 174, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 166, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\loader_tags.py", line 160, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 166, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\loader_tags.py", line 66, in render
+    result = block.nodelist.render(context)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\defaulttags.py", line 249, in render
+    nodelist.append(node.render_annotated(context))
+                    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1150, in render
+    output = self.filter_expression.resolve(context)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 815, in resolve
+    new_obj = func(obj, *arg_vals)
+  File "D:\Study\Django Projects\Project1\mysite\myapp\templatetags\custom_filters.py", line 11, in discount
+    return int(value) - ((int(value)*int(percentage)/100))
+           ~~~^^^^^^^
+ValueError: invalid literal for int() with base 10: '$9.49'
+Fetching all items from the database
+User [2026-04-12T13:36:38.375874+00:00] Darshil requested item list from 127.0.0.1
+Found 18 items in the database
+Internal Server Error: /myapp/
+Traceback (most recent call last):
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Study\Django Projects\Project1\mysite\myapp\views.py", line 34, in index
+    return render(request, "myapp/index.html", context)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 174, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 166, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\loader_tags.py", line 160, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 166, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\loader_tags.py", line 66, in render
+    result = block.nodelist.render(context)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\defaulttags.py", line 249, in render
+    nodelist.append(node.render_annotated(context))
+                    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1150, in render
+    output = self.filter_expression.resolve(context)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 815, in resolve
+    new_obj = func(obj, *arg_vals)
+  File "D:\Study\Django Projects\Project1\mysite\myapp\templatetags\custom_filters.py", line 11, in discount
+    return int(value) - ((int(value)*int(percentage)/100))
+           ~~~^^^^^^^
+ValueError: invalid literal for int() with base 10: '$9.49'
+D:\Study\Django Projects\Project1\mysite\myapp\templatetags\custom_filters.py changed, reloading.
+Watching for file changes with StatReloader
+Fetching all items from the database
+User [2026-04-12T13:37:19.192153+00:00] Darshil requested item list from 127.0.0.1
+Found 18 items in the database
+Internal Server Error: /myapp/
+Traceback (most recent call last):
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Study\Django Projects\Project1\mysite\myapp\views.py", line 34, in index
+    return render(request, "myapp/index.html", context)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 174, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 166, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\loader_tags.py", line 160, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 166, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\loader_tags.py", line 66, in render
+    result = block.nodelist.render(context)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\defaulttags.py", line 249, in render
+    nodelist.append(node.render_annotated(context))
+                    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1150, in render
+    output = self.filter_expression.resolve(context)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 815, in resolve
+    new_obj = func(obj, *arg_vals)
+  File "D:\Study\Django Projects\Project1\mysite\myapp\templatetags\custom_filters.py", line 11, in discount
+    return int(value) - (int(value)*(int(percentage)/100))
+           ~~~^^^^^^^
+ValueError: invalid literal for int() with base 10: '$9.49'
+Watching for file changes with StatReloader
+Fetching all items from the database
+User [2026-04-12T13:38:00.887318+00:00] Darshil requested item list from 127.0.0.1
+Found 18 items in the database
+Internal Server Error: /myapp/
+Traceback (most recent call last):
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Study\Django Projects\Project1\mysite\myapp\views.py", line 34, in index
+    return render(request, "myapp/index.html", context)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 174, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 166, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\loader_tags.py", line 160, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 166, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\loader_tags.py", line 66, in render
+    result = block.nodelist.render(context)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\defaulttags.py", line 249, in render
+    nodelist.append(node.render_annotated(context))
+                    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1150, in render
+    output = self.filter_expression.resolve(context)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 815, in resolve
+    new_obj = func(obj, *arg_vals)
+  File "D:\Study\Django Projects\Project1\mysite\myapp\templatetags\custom_filters.py", line 11, in discount
+    return int(value) - (int(value)*(int(percentage)/100))
+           ~~~^^^^^^^
+ValueError: invalid literal for int() with base 10: '$9.49'
+Fetching all items from the database
+User [2026-04-12T13:38:36.327697+00:00] Darshil requested item list from 127.0.0.1
+Found 18 items in the database
+Internal Server Error: /myapp/
+Traceback (most recent call last):
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Study\Django Projects\Project1\mysite\myapp\views.py", line 34, in index
+    return render(request, "myapp/index.html", context)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 174, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 166, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\loader_tags.py", line 160, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 166, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\loader_tags.py", line 66, in render
+    result = block.nodelist.render(context)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\defaulttags.py", line 249, in render
+    nodelist.append(node.render_annotated(context))
+                    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1150, in render
+    output = self.filter_expression.resolve(context)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 815, in resolve
+    new_obj = func(obj, *arg_vals)
+  File "D:\Study\Django Projects\Project1\mysite\myapp\templatetags\custom_filters.py", line 11, in discount
+    return int(value) - (int(value)*(int(percentage)/100))
+           ~~~^^^^^^^
+ValueError: invalid literal for int() with base 10: '$9.49'
+Fetching all items from the database
+User [2026-04-12T13:38:37.244802+00:00] Darshil requested item list from 127.0.0.1
+Found 18 items in the database
+Internal Server Error: /myapp/
+Traceback (most recent call last):
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Study\Django Projects\Project1\mysite\myapp\views.py", line 34, in index
+    return render(request, "myapp/index.html", context)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 174, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 166, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\loader_tags.py", line 160, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 166, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\loader_tags.py", line 66, in render
+    result = block.nodelist.render(context)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\defaulttags.py", line 249, in render
+    nodelist.append(node.render_annotated(context))
+                    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1150, in render
+    output = self.filter_expression.resolve(context)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 815, in resolve
+    new_obj = func(obj, *arg_vals)
+  File "D:\Study\Django Projects\Project1\mysite\myapp\templatetags\custom_filters.py", line 11, in discount
+    return int(value) - (int(value)*(int(percentage)/100))
+           ~~~^^^^^^^
+ValueError: invalid literal for int() with base 10: '$9.49'
+Fetching all items from the database
+User [2026-04-12T13:38:56.499161+00:00] Darshil requested item list from 127.0.0.1
+Found 18 items in the database
+Internal Server Error: /myapp/
+Traceback (most recent call last):
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Study\Django Projects\Project1\mysite\myapp\views.py", line 34, in index
+    return render(request, "myapp/index.html", context)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 174, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 166, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\loader_tags.py", line 160, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 166, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\loader_tags.py", line 66, in render
+    result = block.nodelist.render(context)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\defaulttags.py", line 249, in render
+    nodelist.append(node.render_annotated(context))
+                    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1150, in render
+    output = self.filter_expression.resolve(context)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 815, in resolve
+    new_obj = func(obj, *arg_vals)
+  File "D:\Study\Django Projects\Project1\mysite\myapp\templatetags\custom_filters.py", line 11, in discount
+    return int(value) - (int(value)*(int(percentage)/100))
+           ~~~^^^^^^^
+ValueError: invalid literal for int() with base 10: '$9.49'
+Fetching all items from the database
+User [2026-04-12T13:38:57.345238+00:00] Darshil requested item list from 127.0.0.1
+Found 18 items in the database
+Internal Server Error: /myapp/
+Traceback (most recent call last):
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Study\Django Projects\Project1\mysite\myapp\views.py", line 34, in index
+    return render(request, "myapp/index.html", context)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 174, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 166, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\loader_tags.py", line 160, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 166, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\loader_tags.py", line 66, in render
+    result = block.nodelist.render(context)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\defaulttags.py", line 249, in render
+    nodelist.append(node.render_annotated(context))
+                    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1150, in render
+    output = self.filter_expression.resolve(context)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 815, in resolve
+    new_obj = func(obj, *arg_vals)
+  File "D:\Study\Django Projects\Project1\mysite\myapp\templatetags\custom_filters.py", line 11, in discount
+    return int(value) - (int(value)*(int(percentage)/100))
+           ~~~^^^^^^^
+ValueError: invalid literal for int() with base 10: '$9.49'
+Fetching all items from the database
+User [2026-04-12T13:38:58.351459+00:00] Darshil requested item list from 127.0.0.1
+Found 18 items in the database
+Internal Server Error: /myapp/
+Traceback (most recent call last):
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Study\Django Projects\Project1\mysite\myapp\views.py", line 34, in index
+    return render(request, "myapp/index.html", context)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 174, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 166, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\loader_tags.py", line 160, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 166, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\loader_tags.py", line 66, in render
+    result = block.nodelist.render(context)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\defaulttags.py", line 249, in render
+    nodelist.append(node.render_annotated(context))
+                    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1150, in render
+    output = self.filter_expression.resolve(context)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 815, in resolve
+    new_obj = func(obj, *arg_vals)
+  File "D:\Study\Django Projects\Project1\mysite\myapp\templatetags\custom_filters.py", line 11, in discount
+    return int(value) - (int(value)*(int(percentage)/100))
+           ~~~^^^^^^^
+ValueError: invalid literal for int() with base 10: '$9.49'
+Fetching all items from the database
+User [2026-04-12T13:38:59.035131+00:00] Darshil requested item list from 127.0.0.1
+Found 18 items in the database
+Internal Server Error: /myapp/
+Traceback (most recent call last):
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Study\Django Projects\Project1\mysite\myapp\views.py", line 34, in index
+    return render(request, "myapp/index.html", context)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 174, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 166, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\loader_tags.py", line 160, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 166, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\loader_tags.py", line 66, in render
+    result = block.nodelist.render(context)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\defaulttags.py", line 249, in render
+    nodelist.append(node.render_annotated(context))
+                    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1150, in render
+    output = self.filter_expression.resolve(context)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 815, in resolve
+    new_obj = func(obj, *arg_vals)
+  File "D:\Study\Django Projects\Project1\mysite\myapp\templatetags\custom_filters.py", line 11, in discount
+    return int(value) - (int(value)*(int(percentage)/100))
+           ~~~^^^^^^^
+ValueError: invalid literal for int() with base 10: '$9.49'
+Fetching all items from the database
+User [2026-04-12T13:38:59.505993+00:00] Darshil requested item list from 127.0.0.1
+Found 18 items in the database
+Internal Server Error: /myapp/
+Traceback (most recent call last):
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Study\Django Projects\Project1\mysite\myapp\views.py", line 34, in index
+    return render(request, "myapp/index.html", context)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 174, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 166, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\loader_tags.py", line 160, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 166, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\loader_tags.py", line 66, in render
+    result = block.nodelist.render(context)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\defaulttags.py", line 249, in render
+    nodelist.append(node.render_annotated(context))
+                    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 1150, in render
+    output = self.filter_expression.resolve(context)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\base.py", line 815, in resolve
+    new_obj = func(obj, *arg_vals)
+  File "D:\Study\Django Projects\Project1\mysite\myapp\templatetags\custom_filters.py", line 11, in discount
+    return int(value) - (int(value)*(int(percentage)/100))
+           ~~~^^^^^^^
+ValueError: invalid literal for int() with base 10: '$9.49'
+Fetching all items from the database
+User [2026-04-12T13:40:35.035185+00:00] Darshil requested item list from 127.0.0.1
+Found 18 items in the database
+D:\Study\Django Projects\Project1\mysite\myapp\templatetags\custom_filters.py changed, reloading.
+Watching for file changes with StatReloader
+Fetching all items from the database
+User [2026-04-12T13:46:06.408791+00:00] Darshil requested item list from 127.0.0.1
+Found 18 items in the database
+D:\Study\Django Projects\Project1\mysite\myapp\forms.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Study\Django Projects\Project1\mysite\myapp\forms.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Study\Django Projects\Project1\mysite\myapp\forms.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Fetching all items from the database
+User [2026-04-27T10:45:57.165099+00:00] Darshil requested item list from 127.0.0.1
+Found 18 items in the database
+D:\Study\Django Projects\Project1\mysite\myapp\forms.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Study\Django Projects\Project1\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Study\Django Projects\Project1\mysite\myapp\forms.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Study\Django Projects\Project1\mysite\myapp\forms.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Study\Django Projects\Project1\mysite\myapp\forms.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Study\Django Projects\Project1\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Study\Django Projects\Project1\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Study\Django Projects\Project1\mysite\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Study\Django Projects\Project1\mysite\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Study\Django Projects\Project1\mysite\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Study\Django Projects\Project1\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Study\Django Projects\Project1\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Study\Django Projects\Project1\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /myapp/item-json/
+Traceback (most recent call last):
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Study\Django Projects\Project1\mysite\myapp\views.py", line 21, in item_list_json
+    return JsonResponse({"items":items})
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\http\response.py", line 761, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "C:\Users\darsh\AppData\Local\Programs\Python\Python314\Lib\json\__init__.py", line 242, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "C:\Users\darsh\AppData\Local\Programs\Python\Python314\Lib\json\encoder.py", line 202, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\darsh\AppData\Local\Programs\Python\Python314\Lib\json\encoder.py", line 263, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\core\serializers\json.py", line 113, in default
+    return super().default(o)
+           ~~~~~~~~~~~~~~~^^^
+  File "C:\Users\darsh\AppData\Local\Programs\Python\Python314\Lib\json\encoder.py", line 182, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+                    f'is not JSON serializable')
+TypeError: Object of type QuerySet is not JSON serializable
+when serializing dict item 'items'
+Not Found: /favicon.ico
+D:\Study\Django Projects\Project1\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /myapp/item-json/
+Traceback (most recent call last):
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Study\Django Projects\Project1\mysite\myapp\views.py", line 21, in item_list_json
+    return JsonResponse({"items":items})
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\http\response.py", line 761, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "C:\Users\darsh\AppData\Local\Programs\Python\Python314\Lib\json\__init__.py", line 242, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "C:\Users\darsh\AppData\Local\Programs\Python\Python314\Lib\json\encoder.py", line 202, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\darsh\AppData\Local\Programs\Python\Python314\Lib\json\encoder.py", line 263, in iterencode
+    return _iterencode(o, 0)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\core\serializers\json.py", line 113, in default
+    return super().default(o)
+           ~~~~~~~~~~~~~~~^^^
+  File "C:\Users\darsh\AppData\Local\Programs\Python\Python314\Lib\json\encoder.py", line 182, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+                    f'is not JSON serializable')
+TypeError: Object of type QuerySet is not JSON serializable
+when serializing dict item 'items'
+D:\Study\Django Projects\Project1\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Study\Django Projects\Project1\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /myapp/item-json/
+Traceback (most recent call last):
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Study\Django Projects\Project1\mysite\myapp\views.py", line 20, in item_list_json
+    return JsonResponse([{"items":items}])
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\http\response.py", line 754, in __init__
+    raise TypeError(
+    ...<2 lines>...
+    )
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+Internal Server Error: /myapp/item-json/
+Traceback (most recent call last):
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Study\Django Projects\Project1\mysite\myapp\views.py", line 20, in item_list_json
+    return JsonResponse([{"items":items}])
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\http\response.py", line 754, in __init__
+    raise TypeError(
+    ...<2 lines>...
+    )
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+Internal Server Error: /myapp/item-json/
+Traceback (most recent call last):
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Study\Django Projects\Project1\mysite\myapp\views.py", line 20, in item_list_json
+    return JsonResponse(list(items), safe=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\http\response.py", line 754, in __init__
+    raise TypeError(
+    ...<2 lines>...
+    )
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+D:\Study\Django Projects\Project1\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\Study\Django Projects\Project1\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /myapp/item-json/
+Traceback (most recent call last):
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\core\handlers\base.py", line 221, in _get_response
+    response = response.render()
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Study\Django Projects\Project1\.venv\Lib\site-packages\rest_framework\response.py", line 59, in rendered_content
+    assert renderer, ".accepted_renderer not set on Response"
+           ^^^^^^^^
+AssertionError: .accepted_renderer not set on Response
+D:\Study\Django Projects\Project1\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
