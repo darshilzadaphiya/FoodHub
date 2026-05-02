@@ -154,6 +154,8 @@ CACHES = {
     }
 }
 
+CSRF_TRUSTED_ORIGINS = ['https://foodhub-production.up.railway.app']
+
 LOG_LEVEL = "DEBUG" if os.getenv("DJANGO_DEBUG", "True") == "True" else "WARNING"
 
 LOGGING = {
