@@ -1359,3 +1359,10 @@ Found Ice Cream Sundae ($4.59)
 Fetching item with id 21
 Found Ice Cream Sundae ($4.59)
 Not Found: /myapp/admin
+Watching for file changes with StatReloader
+Not Found: /myapp/admin
+Not Found: /myapp/admin
+Not Found: /myapp/admin
+Fetching all items from the database
+User [2026-05-02T23:50:34.809657+00:00] Darshil requested item list from 127.0.0.1
+Found 18 items in the database
