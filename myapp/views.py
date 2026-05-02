@@ -30,7 +30,7 @@ def item_list_json(request):
     items = Item.objects.all().values("id", "item_name", "item_price")
     return JsonResponse(list(items), safe=False)
 # Create your views here.
-@login_required()
+# @login_required()
 # @cache_page(60 * 15)
 # @vary_on_headers("User-Agent")
 def index(request):

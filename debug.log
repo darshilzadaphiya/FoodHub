@@ -1334,3 +1334,14 @@ Traceback (most recent call last):
 AssertionError: .accepted_renderer not set on Response
 D:\Study\Django Projects\Project1\mysite\myapp\views.py changed, reloading.
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Fetching all items from the database
+User [2026-05-02T12:56:50.966603+00:00] Darshil requested item list from 127.0.0.1
+Found 18 items in the database
+Not Found: /favicon.ico
+D:\Study\Django Projects\Project1\mysite\mysite\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Study\Django Projects\Project1\mysite\mysite\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Study\Django Projects\Project1\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
