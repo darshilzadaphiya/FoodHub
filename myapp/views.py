@@ -24,6 +24,7 @@ logger = logging.getLogger(__name__)
 def item_list_api(request):
     items = Item.objects.all()
     serializer = ItemSerializer(items, many=True)
+    print("Serialized")
     return Response(serializer.data)
 
 def item_list_json(request):
