@@ -1,4 +1,5 @@
 {% extends 'myapp/base.html' %}
+{% load custom_filters %}
 {% block body %}
 
 <div>
@@ -8,10 +9,11 @@
                 <img class="w-40 rounded-lg" src="{{item.item_image}}" alt="">
             </div>
             <div class="mx-16">
-                <div class="font-bold">{{item.item_name}}</div>
-                <div>{{item.item_desc}}</div>
+                <div class="font-bold">{{item.item_name|upper}}</div>
+                <div>{{item.item_desc|lower|truncatechars:20}}</div>
                 <div>Posted by <b>{{item.user_name}}</b></div>
-                <div class="text-yellow-700 font-bold">${{item.item_price}}</div>
+                <div>Created at {{item.created_at|date:"d M Y"}}</div>
+                <div class="text-yellow-700 font-bold">{{item.item_price|floatformat:2|currency}}</div>
             </div>
             <div ><a class="bg-black text-yellow-400 font-bold px-4 py-2 rounded-md" href="{% url 'myapp:detail' item.id %}">View Details</a></div>
         </div>
