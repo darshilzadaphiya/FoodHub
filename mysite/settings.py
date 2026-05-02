@@ -155,6 +155,7 @@ CACHES = {
 }
 
 CSRF_TRUSTED_ORIGINS = ['https://foodhub-production.up.railway.app']
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 LOG_LEVEL = "DEBUG" if os.getenv("DJANGO_DEBUG", "True") == "True" else "WARNING"
 
