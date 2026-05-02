@@ -33,6 +33,7 @@ ALLOWED_HOSTS = ['foodhub-production.up.railway.app', 'localhost', '127.0.0.1']
 # Application definition
 
 MIDDLEWARE = [
+
     'myapp.middleware.BlockIPMiddleware',
     'myapp.middleware.LogRequestMiddleware',
     'myapp.middleware.TimeMiddleware',
