@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-*+!s**p^ai(u%!%e7c^6!m-$345_jc=ga%3mh(&ota+3x_@$rq
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['foodhub-production.up.railway.app', 'localhost', '127.0.0.1']
 
 
 # Application definition
